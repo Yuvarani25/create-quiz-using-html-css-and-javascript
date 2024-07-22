@@ -4,29 +4,52 @@
 }
 h2{
     margin-left: 20px;
-   
+    color: darkblue;
+
 }
 ul{
     list-style-type: none;
     padding: 10px;
 }
 span{
-    /* border: 1px solid black; */
+
     padding: 10px;
     background-color: red;
 }
 li{
-    /* border: 1px solid black; */
+    color: darkblue;
     padding: 10px 10px 10px 0px;
     margin: 10px;
     width:500px;
     background-color: white;
 }
 .quiz{ 
-    /* border: 1px solid black; */
-    width: 570px;
+    
+    width: 60320px;
     height:260px;
-    margin: 150px;
-    margin-left: 480px;
+    margin:150px;
+    margin-left: 500px;
     background-color: rgb(104, 206, 240);
+    padding-top: 10px;
+    box-shadow: inset rgba(0,0,0,0.10);
+}
+
+@media screen and (max-width: 1200px) {
+    .quiz {
+        width: 70%; 
+        margin: 100px auto; 
+    }
+
+    li {
+        width: 100%; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .quiz {
+        width: 90%; 
+        margin: 50px auto;
+        height: auto; 
+    }
 }
